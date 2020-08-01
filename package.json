@@ -1,0 +1,20 @@
+{
+  "name": "jenkins-express-test",
+  "version": "1.0.0",
+  "description": "Node Express Server To Test Jenkins",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Carlton Joseph",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.2.2",
+    "supertest": "^4.0.2"
+  }
+}
